@@ -4,7 +4,7 @@ import { testimonials } from "../constants"
 
 export default function Testomonials(){
     return (
-       <section className="flex flex-col mt-10 mx-auto items-center">
+       <section id="testimonial" className="flex flex-col mt-10 mx-auto items-center">
         <h2 className="text-4xl md:text-5xl lg:text-6xl text-center">What are sayng</h2>
         <div className="flex flex-wrap justify-center mt-20">
            {testimonials.map((testimonial, index) => (

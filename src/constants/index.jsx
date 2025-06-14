@@ -19,10 +19,10 @@ const user6 = "https://placehold.co/100"
 
 
 export const navItems = [
-    {label: "Features", href: "#"},
-    {label: "Workflow", href: "#"},
-    {label: "Pricing", href: "#"},
-    {label: "Testomonials", href: "#"},
+    {label: "Features", href: "#feature"},
+    {label: "Workflow", href: "#workflow"},
+    {label: "Pricing", href: "#price"},
+    {label: "Testomonials", href: "#testimonial"},
 
 ]
 

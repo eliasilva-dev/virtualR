@@ -5,7 +5,7 @@ import { CircleCheck } from "lucide-react"
 export default function ChecklistSection(){
     return(
         
-        <section className="flex flex-col mt-20 mx-auto"> 
+        <section id="workflow" className="flex flex-col mt-20 mx-auto"> 
             <hr className="text-neutral-700 mb-15" />
             <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center"> 
                 Accelarete your

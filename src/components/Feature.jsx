@@ -1,7 +1,7 @@
 import { features } from "../constants";
 export default function Feature(){
     return(
-        <section className="relative mt-20 mx-auto flex flex-col items-center">
+        <section id="feature" className="relative mt-20 mx-auto flex flex-col items-center">
             <h5 className="px-6 py-2 bg-neutral-800/50 rounded-full text-orange-500 uppercase tracking-wide">
                 Features
             </h5>

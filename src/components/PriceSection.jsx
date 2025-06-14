@@ -4,7 +4,7 @@ import {  pricingOptions } from "../constants"
 
 export default function PriceSection(){
     return(
-        <section className="mx-auto mt-20 flex flex-col items-center">
+        <section id="price" className="mx-auto mt-20 flex flex-col items-center">
             <h1 className="text-4xl text-center md:text-5xl lg:text-6xl">Price</h1>
             <div className="flex flex-wrap mt-10 w-full">
                 {pricingOptions.map((option, index) => (
